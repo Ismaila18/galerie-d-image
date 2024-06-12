@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.5rem;
+    overflow:hidden ;
+    font-family: sans-serif;
+    width: 100%;
+    max-height: 100vh;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+nav .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.logo img{
+padding-top: 0.85rem;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+nav .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    padding-right: 1rem;
+}
+input{
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.login{
+    font-size: 15px;
+}
+.sign a{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+/* section world */
+section{
+    width: 100%;
+}
+.container-world{
+    text-align: center;
+}
+.btn-world button{
+    margin-top: 4rem;
+    padding: 12px 16px;
+    border-radius: 50px;
+    background-color: orange;
+    cursor: pointer;
+    color: #333;
+    animation-name: change-colore; 
+    animation-duration: 20s;
+    animation-iteration-count: infinite; 
+}
+@keyframes change-colore{
+    1O%{
+       background-color: orange;
+    }
+    20%{
+    background-color: rgba(252, 28, 244, 0.733);
+    }
+    40%{
+        background-color:rgb(146, 146, 80);
+    }
+    50%{
+        background-color:gray;
+    }
+    100%{
+        background-color:gainsboro;
+    }
+}
+.container-world h1{
+    max-width:900px ;
+    padding: 40px;
+    font-size: 5rem;
+    font-weight: 600;
+    margin: auto;
+}
+.container-world P{
+    font-size: 1.5rem;
+    color: black;
+}
+.container-world .btn button{
+padding: 20px;
+background-color: black;
+color: #fff;
+border-radius: 20px;
+font-size: 15px;
+margin-top: 30px;
+padding: 10px;
+border: none;
+}
+.container-world .btn button:hover{
+    background-color: #565564;
+}

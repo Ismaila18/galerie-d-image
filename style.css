@@ -1,0 +1,29 @@
+.navs{
+    padding-top: 1rem;
+    display: flex;
+    gap: 10rem;
+    padding-left: 1rem;
+}
+.div1{
+    display: flex;
+    gap: 3rem;
+}
+.div2{
+    display: flex;
+    gap: 3rem;
+}
+.section1{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 50px;
+}
+.button-1{
+    border-radius: 2em;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 5rem;
+}
+.grid-items{
+    display:grid
+}
